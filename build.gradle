@@ -26,6 +26,7 @@ ext {
 }
 
 dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-mail'
 	implementation 'net.bytebuddy:byte-buddy:1.14.2'
 	implementation 'org.springframework.boot:spring-boot-starter-security'
